@@ -1,0 +1,19 @@
+{
+	"vesion": "0.2.0",
+	"configurations": [
+		{
+			"name": "3anna2",
+			"type": "debugpy",
+			"request": "launch",
+			"console": "integratedTerminal",
+			"python": "/odoo/15-venv/bin/python",
+			"program": "${workspaceFolder}/odoo/odoo-bin",
+			"args": [
+				"--config=${workspaceFolder}/odoo.conf",
+				"--db-filter=3anna2",
+			],
+			"cwd": "${workspaceFolder}",
+		}
+	]
+}
+
